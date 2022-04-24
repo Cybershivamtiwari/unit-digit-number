@@ -1,0 +1,13 @@
+#CODE FOR THE FIND OUT THE UNIT DIGIT NUMBER
+x=input("enter the base number:")
+y=int(input("enter the power value:"))
+l=len(x)-1
+if(x[l]==0, x[l]==1, x[l]==5, x[l]==6):
+    print(x[l],"is the unit digit")
+else:
+    j=y%4 #j=0,,1,2,3
+    k=int(x[l])
+    k=k**3
+    p=str(k)
+    z=len(p)-1
+    print(p[z],"is the unit digit:")
